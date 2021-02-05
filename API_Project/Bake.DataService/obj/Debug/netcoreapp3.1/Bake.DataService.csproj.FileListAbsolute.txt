@@ -1,0 +1,12 @@
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\bin\Debug\netcoreapp3.1\Bake.DataService.deps.json
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\bin\Debug\netcoreapp3.1\Bake.DataService.dll
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\bin\Debug\netcoreapp3.1\Bake.DataService.pdb
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.csprojAssemblyReference.cache
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.AssemblyInfoInputs.cache
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.AssemblyInfo.cs
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.csproj.CoreCompileInputs.cache
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.dll
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.pdb
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\bin\Debug\netcoreapp3.1\Bake.DataService.runtimeconfig.json
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\bin\Debug\netcoreapp3.1\Bake.DataService.runtimeconfig.dev.json
+C:\Users\Sheetal Davis\source\repos\Bake\Bake.DataService\obj\Debug\netcoreapp3.1\Bake.DataService.genruntimeconfig.cache

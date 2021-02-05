@@ -1,0 +1,15 @@
+<div class="content-box" *ngFor="let listing of listings">
+    <h3>{{listing.name}}</h3>
+    <p>{{listing.description}}</p>
+    <p>${{listing.price}}</p>
+    <div class="buttons-container" > 
+        <a routerLink="/MenuEdit/{{listing.id}}">
+            <button class="operator">Edit</button>
+        </a>
+        <button (click)="onDeleteClicked(listing.id)" class="operatoredit">Delete</button>
+    </div>
+</div>
+
+<a routerLink="/addmenu">
+    <button class="operatoredit">Add New Menu</button>
+</a>

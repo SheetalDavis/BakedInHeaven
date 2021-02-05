@@ -1,0 +1,26 @@
+Possible Endpoints
+
+----Customer table
+Get /Customer         ////To get the details of all customer    (read)
+Get /Customer/{id}    //To get the details of single customer   (read)
+
+Post /Customer        //Add a new customer                      (Create)
+Patch /Customer/{id}  //To update customer details              (update)
+Delete /Customer/{id} //Deletes a single customer               (delete)
+
+
+----Dishes Tables
+Post /SpclDishes
+Post /SpclDishes/{date} // Returing the special dishes based on date
+Put /SpclDishes         //Adding Special dishes
+Put /RegDishes          //Adding Regular dishes
+Post /RegDishes
+Post /RegDishes/{date}
+Delete /SpclDishes      
+Delete /SpclDishes/{date} //Deleting the special dishes.
+
+----Order Tables
+Get /Order
+Get/Order/{id}         //Getting an order
+Post /Order            //Confirming the order
+Delete /Order/{id}     //Deleting an order

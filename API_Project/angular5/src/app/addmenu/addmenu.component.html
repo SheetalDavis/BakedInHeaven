@@ -1,0 +1,72 @@
+
+<div class="content-box">
+    <h2>Create New Menu</h2>
+    <form (ngSubmit)="onSubmit()">
+        <table>
+            <tr>
+               <td colspan="4">
+                 
+               </td>
+        <div>
+            <tr><label for="name">
+                Name:
+            </label>
+            <td><input id="name" name="name" type="text" [(ngModel)]="name" /></td></tr>
+        </div>
+        <div>
+            <tr><label for="description">
+                Item Description:
+            </label>
+            <td><input id="description" name="description" type="text" [(ngModel)]="description" /></td></tr>
+        </div>
+        <div>
+        <tr><label for="price">
+                Price:
+            </label>
+            <td><input id="price" name="price" type="text" [(ngModel)]="price" /></td></tr>
+        </div>
+        <div>
+        <tr><label for="quantity">
+                quantity:
+            </label>
+            <td><input id="quantity" name="quantity" type="text" [(ngModel)]="quantity" /></td></tr>
+        </div>
+        
+        <div>
+        <tr><label for="weight">
+                weight:
+            </label>
+            <td><input id="weight" name="weight" type="text" [(ngModel)]="weight" /></td></tr>
+        </div>
+        
+        <div>
+        <tr><label for="nutrition">
+                nutrition:
+            </label>
+            <td><input id="nutrition" name="nutrition" type="text" [(ngModel)]=" nutrition" /></td></tr>
+        </div>
+        <fieldset class="row mb-0">
+            <legend  >Veg/Non-Veg</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="veg" id="veg" value="option1" checked>
+                <label class="form-check-label" for="veg" >
+                  Veg
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="veg" id="non-veg" value="option2">
+                <label class="form-check-label" for="non-veg" >
+                  Non-Veg
+                </label>
+              </div>
+            </div>
+          </fieldset>
+    
+    </table>
+        <button type="submit" class="operator">Create Listing</button>
+    </form>
+</div>
+
+    
+   
