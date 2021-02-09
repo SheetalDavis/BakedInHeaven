@@ -1,0 +1,29 @@
+<p>items works!</p>
+
+<div>
+    
+    <div class="content-box" *ngFor="let item of items">
+      
+        <div class="container" class="text-center">
+            
+            <div class="panel panel-success" >
+                <div class="panel-heading" ><em>{{item.veg}} || {{item.spl}} </em></div>
+                
+            </div>
+          
+        
+         </div>
+            <h3>{{item.name}} - ${{item.price}}</h3>
+            <h5>Available quantity: {{item.quantity}}</h5>
+            <h5>nutritional Value (Kcal): {{item.nutrition}} </h5>
+            <h5></h5>
+            
+            
+        
+    </div>
+</div>
+
+
+    
+
+
