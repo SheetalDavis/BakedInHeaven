@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bake.BusinessService</id>
+    <version>1.0.0</version>
+    <authors>Bake.BusinessService</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Bake.DataService" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Sheetal Davis\Desktop\BakedInHeaven-master\Bake.BusinessService\bin\Debug\netcoreapp3.1\Bake.BusinessService.dll" target="lib\netcoreapp3.1\Bake.BusinessService.dll" />
+  </files>
+</package>

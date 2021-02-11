@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.BusinessService\\Bake.BusinessService.csproj": {}
+    "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.BusinessService\\Bake.BusinessService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.BusinessService\\Bake.BusinessService.csproj": {
+    "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.BusinessService\\Bake.BusinessService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.BusinessService\\Bake.BusinessService.csproj",
+        "projectUniqueName": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.BusinessService\\Bake.BusinessService.csproj",
         "projectName": "Bake.BusinessService",
-        "projectPath": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.BusinessService\\Bake.BusinessService.csproj",
+        "projectPath": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.BusinessService\\Bake.BusinessService.csproj",
         "packagesPath": "C:\\Users\\Sheetal Davis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.BusinessService\\obj\\",
+        "outputPath": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.BusinessService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sheetal Davis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.DataService\\Bake.DataService.csproj": {
-                "projectPath": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.DataService\\Bake.DataService.csproj"
+              "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.DataService\\Bake.DataService.csproj": {
+                "projectPath": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.DataService\\Bake.DataService.csproj"
               }
             }
           }
@@ -43,12 +43,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.DataService\\Bake.DataService.csproj": {
+    "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.DataService\\Bake.DataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.DataService\\Bake.DataService.csproj",
+        "projectUniqueName": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.DataService\\Bake.DataService.csproj",
         "projectName": "Bake.DataService",
-        "projectPath": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.DataService\\Bake.DataService.csproj",
+        "projectPath": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.DataService\\Bake.DataService.csproj",
         "packagesPath": "C:\\Users\\Sheetal Davis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sheetal Davis\\source\\repos\\Bake\\Bake.DataService\\obj\\",
+        "outputPath": "C:\\Users\\Sheetal Davis\\Desktop\\BakedInHeaven-master\\Bake.DataService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sheetal Davis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,7 +98,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.JsonPatch": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
             },

@@ -6,10 +6,16 @@ namespace Bake.BusinessService.Dtos
 {
     public class CustomerReadDto
     {
-        //public int CustomerID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Phone { get; set; }
-        public int Id { get; set; }
+        public int CustomerId { get; set; }
+
+        public string Name { get; set; }
+
+        public string PhoneNo { get; set; }
+
+        public string Address { get; set; }
+
+        public string Zipcode { get; set; }
+
     }
 }
+
